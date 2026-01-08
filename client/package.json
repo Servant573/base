@@ -1,0 +1,27 @@
+{
+  "name": "vt_base_unlimited_ultra",
+  "version": "1.0.0",
+  "description": "Base",
+  "author": "Vladislav Tikhomirov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Servant573/base"
+  },
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev ./src/",
+    "build": "vuepress build ./src/",
+    "build:ci": "vuepress build ./src/"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-medium-zoom": "2.0.0-rc.112",
+    "@vuepress/plugin-register-components": "2.0.0-rc.112",
+    "@vuepress/plugin-search": "2.0.0-rc.112",
+    "@vuepress/theme-default": "2.0.0-rc.112",
+    "prettier": "3.1.0",
+    "sass-embedded": "1.93.2",
+    "vuepress": "2.0.0-rc.24"
+  }
+}

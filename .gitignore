@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+.DS_Store
+node_modules/
+/client/dist/
+/client/src/.vuepress/.cache/
+/client/src/.vuepress/.temp/

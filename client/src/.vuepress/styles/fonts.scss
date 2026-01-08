@@ -1,0 +1,189 @@
+@use 'mixins/font-faces.scss' as *;
+// =============================================================================
+// Nunito Sans font
+// =============================================================================
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-200',
+    200,
+    normal,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-200italic',
+    200,
+    italic,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-300',
+    300,
+    normal,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-300italic',
+    300,
+    italic,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-regular',
+    normal,
+    normal,
+    woff2 woff ttf
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-italic',
+    normal,
+    italic,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-500',
+    500,
+    normal,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-500italic',
+    500,
+    italic,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-600',
+    600,
+    normal,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-600italic',
+    600,
+    italic,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-700',
+    700,
+    normal,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-700italic',
+    700,
+    italic,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-800',
+    800,
+    normal,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-800italic',
+    800,
+    italic,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-900',
+    900,
+    normal,
+    woff2 woff
+);
+@include font-face(
+    'Nunito Sans',
+    '/fonts/nunito-sans-900italic',
+    900,
+    italic,
+    woff2 woff
+);
+
+//// =============================================================================
+//// Montserrat
+//// =============================================================================
+//@include font-face(
+//  'Montserrat',
+//  '/fonts/montserrat-regular',
+//  normal,
+//  normal,
+//  woff2
+//);
+//@include font-face(
+//  'Montserrat',
+//  '/fonts/montserrat-500',
+//  500,
+//  normal,
+//  woff2
+//);
+//@include font-face(
+//  'Montserrat',
+//  '/fonts/montserrat-700',
+//  700,
+//  normal,
+//  woff2
+//);
+
+@include font-face(
+    'Roboto Condensed',
+    '/fonts/roboto/RobotoCondensed-Light',
+    300,
+    normal,
+    ttf
+);
+
+@include font-face(
+    'Roboto Condensed',
+    '/fonts/roboto/RobotoCondensed-Regular',
+    normal,
+    normal,
+    ttf
+);
+
+@include font-face(
+    'Roboto Condensed',
+    '/fonts/roboto/RobotoCondensed-Bold',
+    500,
+    normal,
+    ttf
+);
+
+@include font-face(
+    'Roboto',
+    '/fonts/roboto/Roboto-Light',
+    300,
+    normal,
+    ttf
+);
+
+@include font-face(
+    'Roboto',
+    '/fonts/roboto/Roboto-Regular',
+    400,
+    normal,
+    ttf
+);
+
+@include font-face(
+    'Roboto',
+    '/fonts/roboto/Roboto-Medium',
+    500,
+    normal,
+    ttf
+);
