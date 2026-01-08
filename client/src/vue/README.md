@@ -23,7 +23,7 @@ Composition API использует более функциональный п�
 ```vue 
 
 <template>
-  <ArealDropbox
+  <CustomDropbox
     :placeholder="getLangText('requests.form.name')"
     :label="getLangText('requests.form.name')"
     :clear-button="clearButton"
@@ -47,7 +47,7 @@ Composition API использует более функциональный п�
         </div>
       </div>
     </template>
-  </ArealDropbox>
+  </CustomDropbox>
 </template>
 
 <script>
@@ -151,7 +151,7 @@ export default {
 ```vue
 
 <template>
-  <ArealDropbox
+  <CustomDropbox
     :placeholder="getLangText('requests.form.name')"
     :label="getLangText('requests.form.name')"
     :clear-button="clearButton"
@@ -175,7 +175,7 @@ export default {
         </div>
       </div>
     </template>
-  </ArealDropbox>
+  </CustomDropbox>
 </template>
 
 <script setup>
