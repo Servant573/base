@@ -130,23 +130,20 @@ console.log(f1() === window) // true (не строгий режим!)
 В строгом режиме если у нас this не установлен в контексте выполнения, то он останется undefined
 
 ```js
-
 function f2() {
   "use strict"; // см. strict mode
   return this;
 }
 console.log(f2() === undefined) // true
 console.log(window.f2() === window) // true Но если задать контекст, то картина меняется
-
+console.log(f2.bind(window)() === window) // true Это тоже сработает
 ```
 
 
 Стрелочные функции создают замыкание this из окружающего контекста выполнения.
 
 ```js
-
 // Прикол со стрелочной функцией
-
 const obj2 = {
   getThisGetter() {
     return () => this;

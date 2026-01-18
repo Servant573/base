@@ -21,8 +21,17 @@ export const sidebarRu = {
       ]
     },
     {
+      link: '/practice/', text: 'Практика', children: [
+        { link: '/practice/debounce/', text: 'Кастомный debounce (с опциями leading/trailing)' },
+        { link: '/practice/throttle/', text: 'Кастомный throttle (с опциями leading/trailing)' },
+        { link: '/practice/todo/', text: 'ToDo-лист на чистом JS (CRUD, localStorage, поиск с debounce, a11y)' },
+        { link: '/practice/validation-form/', text: 'Кастомный form validator с a11y' },
+      ]
+    },
+    {
       link: '/common/', text: 'Общие темы', children: [
         { link: '/common/WCAG/', text: 'Accessibility (a11y) WCAG 2.1/2.2' },
+        { link: '/common/html5/', text: 'HTML5 Forms и валидация/2.2' },
       ]
     }
   ]
